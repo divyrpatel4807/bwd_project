@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTravel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>MyTravel</h1>
+  <nav>
+    <a href="#">Flights</a>
+    <a href="#">Hotels</a>
+    <a href="#">Bus</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="search-box">
+
+    
+
+    <div id="flight" class="tab-content">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="contact no">
+      <input type="date">
+    </div>
+
+    <div id="hotel" class="tab-content hidden">
+      <input type="text" placeholder="City">
+      <input type="date">
+    </div>
+
+    <div id="bus" class="tab-content hidden">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Contact no">
+    </div>
+
+    <button class="search-btn" onclick="location.href='mainpage.html'">Procced</button>
+
+  </div>
+</section>
+
+<section class="offers">
+  <h2>Offers</h2>
+  <div class="offer-cards">
+    <div class="card">✈️ Flight Discount 20%</div>
+    <div class="card">🏨 Hotel Deals</div>
+    <div class="card">🚌 Bus Cashback</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

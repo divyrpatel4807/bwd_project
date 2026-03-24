@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+header {
+  background: #003580;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.tabs button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  background: #003580;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.search-btn {
+  background: orange;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.offers {
+  padding: 20px;
+}
+
+.offer-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  flex: 1;
+  border-radius: 10px;
+}

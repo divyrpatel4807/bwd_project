@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+<div class="form-container">
+
+    <h1>Travel Booking Form</h1>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number" required>
+
+        <label>Select Package</label>
+        <input type="text" placeholder="member"
+       
+        <label>Number of Persons</label>
+        <input type="number" placeholder="contact number" min="1" required>
+
+        <label>Travel Date</label>
+        <input type="date" required>
+
+        <label>Return Date</label>
+        <input type="date" required>
+
+        <label>Address</label>
+        <textarea placeholder="Enter your address"></textarea>
+
+        <label>Payment Method</label>
+        <div class="payment">
+            <input type="radio" name="pay"> Credit Card
+            <input type="radio" name="pay"> Debit Card
+            <input type="radio" name="pay"> UPI
+        </div>
+
+        <button class="search-btn" onclick="location.href='finalpage.html'">Submit</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
